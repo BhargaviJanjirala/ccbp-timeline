@@ -1,0 +1,28 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+}
+@media screen and (max-width: 768px) {
+  .project-card-container {
+    display: flex;
+    padding: 10px;
+  }
+  .title-duration-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.project-card-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.project-image {
+  min-width: 100px;
+  max-width: 320px;
+}
+.duration-container {
+  display: flex;
+  width: 13%;
+  justify-content: space-between;
+  align-items: center;
+}
